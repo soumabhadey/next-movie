@@ -3,7 +3,7 @@ import requests
 
 
 
-API_KEY = "53e2f14fdfa74e2ab7d7f386b702e9e2"
+API_KEY = ""
 
 
 
