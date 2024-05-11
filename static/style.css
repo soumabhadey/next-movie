@@ -1,0 +1,47 @@
+body {
+  font-family: 'Madimi One', sans-serif;
+}
+.jumbotron {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 2rem 0;
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 1.5rem;
+}
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.movie-list {
+  list-style-type: none;
+  padding: 0;
+}
+.movie-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.movie-list-item img {
+  width: 80px;
+  height: auto;
+  margin-right: 1rem;
+}
+.movie-list-item h3 {
+  margin: 0;
+}
+.loading-message {
+  display: none;
+}
+.loading-spinner {
+  display: none;
+}
+.loading-message.show,
+.loading-spinner.show {
+  display: block;
+}
